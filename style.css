@@ -1,0 +1,94 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #442916;
+    color: #C58D4C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 6px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.logo-title {
+    margin-top: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: orangered;
+    transform: rotate(2deg);
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a:hover {
+    color: orangered;
+    transform: rotate(2deg);
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+a {
+    color: #C58D4C;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.img-foto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 10px;
+}
